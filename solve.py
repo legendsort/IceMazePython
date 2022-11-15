@@ -1,6 +1,6 @@
 
 # for file input
-with open('./test.txt') as f:
+with open('./test3.txt') as f:
     # input
     lines = f.readlines()
     n, m, t = list(map(int, lines[0].split()))
@@ -57,7 +57,7 @@ with open('./test.txt') as f:
         if d in ans:
             ans[d].append((x, y))
             pass
-        else:
+        elif d > 0:
             ans[d] = [(x, y)]
             pass
         for i in range(len(bgraph[x][y])):

@@ -1,0 +1,8 @@
+## test1
+This is for sample test in the instruction to  compare the given result.
+
+## test2
+This test case has only one square which can escape the maze.
+
+## test3
+Everysquare has only one possible move so that can escape the maze.
